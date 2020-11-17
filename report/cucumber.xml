@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="110.335919">
+<testcase classname="Jupiter Toys Webpage validation" name="Testcase1 Contact page mandatory field validation" time="29.012418">
+<system-out><![CDATA[Given user connect to Jupitor Toys home page................................passed
+And from the home page go to contact page...................................passed
+When click submit button....................................................passed
+Then validate errors........................................................passed
+And populate mandatory fields...............................................passed
+And validate errors are gone................................................passed
+And browser close...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Jupiter Toys Webpage validation" name="Testcase2 Successful submission of Contact page details" time="11.872274">
+<system-out><![CDATA[Given user connect to Jupitor Toys home page................................passed
+And from the home page go to contact page...................................passed
+And populate mandatory fields...............................................passed
+When click submit button....................................................passed
+Then validate successful submission message of Rajya........................passed
+And browser close...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Jupiter Toys Webpage validation" name="Testcase3 Contact page error validation on mandatory fields by giving invalid data" time="47.227931">
+<system-out><![CDATA[Given user connect to Jupitor Toys home page................................passed
+And from the home page go to contact page...................................passed
+When populate mandatory fields..............................................passed
+Then validate errors........................................................passed
+And browser close...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Jupiter Toys Webpage validation" name="Testcase4 Verify shop page items in Cart" time="22.223296">
+<system-out><![CDATA[Given user connect to Jupitor Toys home page................................passed
+And from the home page go to shop page......................................passed
+When click buy button 2 times on Funny Cow..................................passed
+And click buy button 1 time on Fluffy Bunny.................................passed
+And click the cart menu.....................................................passed
+Then verify the items are in the cart.......................................passed
+And browser close...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
